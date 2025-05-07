@@ -47,6 +47,11 @@
   --drop-shadow-orange: 0px 10px 4px 0px rgba(255, 111, 0, 0.5);
   --drop-shadow-yellow: 0px 10px 4px 0px rgba(249, 201, 76, 0.5);
   --drop-shadow-green: 0px 10px 4px 0px rgba(63, 167, 82, 0.5);
+
+  /* Border Stroke */
+  --border-stroke: ;
+  --border-stroke-green: 2px solid #3fa752;
+  --border-stroke-dark: ;
 }
 
 /* Font weights */
