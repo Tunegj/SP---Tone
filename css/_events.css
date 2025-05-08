@@ -345,6 +345,42 @@ p {
   .menu-toggle {
     display: none;
   }
+
+  h1 {
+    font-size: var(--font-heading-xl);
+  }
+
+  .event-cards {
+    margin: 30px;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .event-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .event-cards img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .event-cards h2 {
+    font-size: var(--font-heading-md);
+  }
+
+  .event-cards p {
+    font-size: var(--font-body-lg);
+  }
+
+  .event-cards a {
+    font-size: var(--font-body-md);
+  }
 }
 
 /* Media query desktop */
@@ -416,5 +452,41 @@ p {
   .hamburger,
   .menu-toggle {
     display: none;
+  }
+
+  h1 {
+    font-size: var(--font-heading-xl);
+  }
+
+  .event-cards {
+    margin: 30px;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .event-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .event-cards img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .event-cards h2 {
+    font-size: var(--font-heading-md);
+  }
+
+  .event-cards p {
+    font-size: var(--font-body-lg);
+  }
+
+  .event-cards a {
+    font-size: var(--font-body-md);
   }
 }
