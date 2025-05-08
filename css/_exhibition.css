@@ -146,7 +146,11 @@ h1 {
   font-size: var(--font-heading-md);
   color: var(--color-font-black);
   text-align: center;
-  margin: 20px;
+  margin: 30px;
+}
+
+.exhibition-spaces {
+  margin: 30px;
 }
 
 .exhibition-cards {
@@ -373,45 +377,28 @@ p {
     grid-template-rows: auto;
   }
 
+  .exhibition-cards {
+    height: 500px;
+  }
+
   .exhibition-card-wide {
     grid-column: span 2;
   }
 
   .exhibition-cards h2 {
-    text-align: center;
-    font-family: var(--font-heading-type);
     font-size: var(--font-heading-md);
-    color: var(--color-font-black);
-    padding: 0.7rem;
-    margin: 0;
   }
 
   .exhibition-cards h3 {
-    text-align: center;
-    font-family: var(--font-heading-type);
-    font-size: var(--font-heading-xsm);
-    color: var(--color-font-black);
-    padding: 0.7rem;
-    margin: 0;
+    font-size: var(--font-heading-sm);
   }
 
   .exhibition-cards p {
-    color: var(--font-color-font-black);
     font-size: var(--font-body-md);
-    padding: 0.7rem;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
   .exhibition-cards a {
-    text-align: right;
-    color: var(--color-font-black);
-    font-family: var(--font-body-type);
-    font-size: var(--font-body-xsm);
-    padding: 10px;
-    margin-top: auto;
+    font-size: var(--font-body-sm);
   }
 }
 
@@ -488,6 +475,14 @@ p {
 
   h1 {
     font-size: var(--font-heading-xl);
+  }
+
+  .exhibition-cards p {
+    font-size: var(--font-body-lg);
+  }
+
+  .exhibition-cards a {
+    font-size: var(--font-body-md);
   }
 
   .exhibition-spaces {
