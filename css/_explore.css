@@ -137,7 +137,8 @@ main h1 {
   font-family: var(--font-heading-type);
   font-size: var(--font-heading-lg);
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .card-green {
@@ -381,6 +382,59 @@ p {
   .menu-toggle {
     display: none;
   }
+
+  main h1 {
+    font-family: var(--font-heading-type);
+    font-size: var(--font-heading-xl);
+    text-align: center;
+  }
+
+  summary {
+    font-size: var(--font-heading-md);
+    font-family: var(--font-heading-type);
+    color: var(--color-font-black);
+    padding: 20px;
+  }
+
+  .card-green,
+  .card-orange,
+  .card-yellow {
+    margin: 30px;
+    height: 410px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-body-md);
+  }
+
+  .card-green img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-orange img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-yellow img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-layout p {
+  }
 }
 
 /* Media query desktop */
@@ -452,5 +506,57 @@ p {
   .hamburger,
   .menu-toggle {
     display: none;
+  }
+
+  main h1 {
+    font-family: var(--font-heading-type);
+    font-size: var(--font-heading-xl);
+    text-align: center;
+  }
+
+  summary {
+    font-size: var(--font-heading-md);
+    font-family: var(--font-heading-type);
+    color: var(--color-font-black);
+    padding: 20px;
+    cursor: pointer;
+  }
+
+  .card-green,
+  .card-orange,
+  .card-yellow {
+    /* margin: 30px; */
+    height: 410px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-body-md);
+  }
+
+  .card-green img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-orange img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-yellow img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
   }
 }
