@@ -141,6 +141,14 @@ nav {
   margin: 20px;
 } */
 
+h1 {
+  font-family: var(--font-heading-type);
+  font-size: var(--font-heading-md);
+  color: var(--color-font-black);
+  text-align: center;
+  margin: 20px;
+}
+
 .exhibition-cards {
   margin: 30px;
   height: 400px;
@@ -163,7 +171,7 @@ nav {
 .exhibition-cards h2 {
   text-align: center;
   font-family: var(--font-heading-type);
-  font-size: var(--font-heading-md);
+  font-size: var(--font-heading-sm);
   color: var(--color-font-black);
   padding: 0.7rem;
   margin: 0;
@@ -354,6 +362,57 @@ p {
   .menu-toggle {
     display: none;
   }
+
+  h1 {
+    font-size: var(--font-heading-lg);
+  }
+
+  .exhibition-spaces {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .exhibition-card-wide {
+    grid-column: span 2;
+  }
+
+  .exhibition-cards h2 {
+    text-align: center;
+    font-family: var(--font-heading-type);
+    font-size: var(--font-heading-md);
+    color: var(--color-font-black);
+    padding: 0.7rem;
+    margin: 0;
+  }
+
+  .exhibition-cards h3 {
+    text-align: center;
+    font-family: var(--font-heading-type);
+    font-size: var(--font-heading-xsm);
+    color: var(--color-font-black);
+    padding: 0.7rem;
+    margin: 0;
+  }
+
+  .exhibition-cards p {
+    color: var(--font-color-font-black);
+    font-size: var(--font-body-md);
+    padding: 0.7rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .exhibition-cards a {
+    text-align: right;
+    color: var(--color-font-black);
+    font-family: var(--font-body-type);
+    font-size: var(--font-body-xsm);
+    padding: 10px;
+    margin-top: auto;
+  }
 }
 
 /* Media query desktop */
@@ -425,5 +484,33 @@ p {
   .hamburger,
   .menu-toggle {
     display: none;
+  }
+
+  h1 {
+    font-size: var(--font-heading-xl);
+  }
+
+  .exhibition-spaces {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+  }
+
+  .exhibition-card-wide {
+    grid-column: span 2;
+  }
+
+  .exhibition-cards {
+    margin: 30px;
+    height: 600px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--radius-card);
+    border: var(--border-stroke-yellow);
+    box-shadow: var(--drop-shadow-yellow);
+    overflow: hidden;
+    background-color: var(--color-background-light);
   }
 }
