@@ -146,7 +146,7 @@ main h1 {
   display: flex;
   border-radius: var(--radius-card);
   border: var(--border-stroke-green);
-  box-shadow: var(--box-shadow-green);
+  box-shadow: var(--drop-shadow-green);
   overflow: hidden;
   background-color: var(--color-background-light);
 }
@@ -159,6 +159,62 @@ main h1 {
 }
 
 .card-green p {
+  color: var(--font-color-font-black);
+  font-size: var(--font-size-body-sm);
+  padding: 1rem;
+  flex: 1; /* fill the remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-orange {
+  margin: 30px;
+  height: 160px;
+  display: flex;
+  border-radius: var(--radius-card);
+  border: var(--border-stroke-orange);
+  box-shadow: var(--drop-shadow-orange);
+  overflow: hidden;
+  background-color: var(--color-background-light);
+}
+
+.card-orange img {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.card-orange p {
+  color: var(--font-color-font-black);
+  font-size: var(--font-size-body-sm);
+  padding: 1rem;
+  flex: 1; /* fill the remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-yellow {
+  margin: 30px;
+  height: 160px;
+  display: flex;
+  border-radius: var(--radius-card);
+  border: var(--border-stroke-yellow);
+  box-shadow: var(--drop-shadow-yellow);
+  overflow: hidden;
+  background-color: var(--color-background-light);
+}
+
+.card-yellow img {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.card-yellow p {
   color: var(--font-color-font-black);
   font-size: var(--font-size-body-sm);
   padding: 1rem;

@@ -49,9 +49,9 @@
   --drop-shadow-green: 0px 10px 4px 0px rgba(63, 167, 82, 0.5);
 
   /* Border Stroke */
-  --border-stroke: ;
+  --border-stroke-orange: 2px solid #ff6f00;
   --border-stroke-green: 2px solid #3fa752;
-  --border-stroke-dark: ;
+  --border-stroke-yellow: 2px solid #f9c94c;
 }
 
 /* Font weights */
