@@ -158,9 +158,6 @@ footer {
   grid-template-rows: auto;
 }
 
-.footer-top {
-}
-
 .footer-contact {
   margin: 15px;
   display: flex;
@@ -210,6 +207,7 @@ footer {
   align-items: center;
   grid-column: 1 / span 3;
   grid-row: 3;
+  margin-bottom: 2rem;
 }
 
 footer h3 {
@@ -223,6 +221,7 @@ p {
   color: var(--color-background-light);
   font-family: var(--font-body-type);
   font-size: var(--font-body-xsm);
+  line-height: 1.5rem;
 }
 
 .sponsors img {
