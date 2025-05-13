@@ -348,7 +348,7 @@ p {
   }
 
   .home i {
-    font-size: 40px;
+    display: none;
   }
 
   .nav-links {
@@ -434,6 +434,59 @@ p {
   }
 
   .card-layout p {
+  }
+
+  /* FOOTER */
+  footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+
+  footer h3 {
+    font-size: var(--font-heading-md);
+  }
+
+  footer p {
+    font-size: var(--font-body-md);
+  }
+
+  footer a {
+    font-size: var(--font-body-md);
+  }
+
+  .footer-contact,
+  .footer-explore,
+  .legal,
+  .social-media,
+  .sponsors {
+    line-height: 2.5rem;
+    padding: 25px;
+    margin: 15px;
+  }
+
+  .legal {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .social-media {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .sponsors {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+  }
+
+  .sponsor-logo img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .social-icon i {
+    font-size: 50px;
   }
 }
 
